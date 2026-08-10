@@ -116,3 +116,7 @@ The dataset was cleaned and transformed into customer-level features including
 - Average transaction value
 
 The raw data is available in the "data"  folder.
+
+**Author**
+Ogunjinmi Temitayo Olubunmi
+Data Science Capstone Project - Retail Customer Segmentation Using K-Means Clustering

@@ -1,11 +1,16 @@
 # Retail-Customer-Segmentation
 This project describes retail customer segmentation for a POS/retail business using K-Means clustering to identify customer groups and generate actionable business insights.
+
 **Project Title**: Retail Customer Segmentation 
+
 **Model Used**: K-Means Clustering
+
 **Project Overview**
 This project applies K-Means clustering to POS retail customer transaction data to identify distinct customer segments based on purchasing behaviour. Transaction data used include: Days Since Last Purchase (Recency), Total Transactions (Frequency), Total Products Purchased, Total Spend (Monetary) and Average Transaction Value, and use a simple clustering algorithm (K-Means) to group customers into two segments:  Cluster 0 - 264 - Low-value and at risk customers; and Cluster 1 - 224 - High-value and Loyal customers.
+
 **Project Objective**
 The objective of this project to build an MVP to cluster customers for a POS /retail business that clusters customers based on purchasing behaviour, to help a POS/retail business understand its customers, improve customer retention, develop targeted marketing strategies, and make data-driven decisions.
+
 **Specific Objectives**
 - Prepare and clean the retail transaction data – (Retail_pos_basket_data.csv)
 - Customer-level behavioural features engineering.
@@ -15,6 +20,7 @@ The objective of this project to build an MVP to cluster customers for a POS /re
 - Profile the resulting customer segments.
 - Evaluate the clustering results.
 - Generate actionable business recommendations.
+  
 **Features Used**
 The following customer-level features were used for clustering:
 - Days Since Last Purchase (Recency)
@@ -51,6 +57,7 @@ The final model produced two customer segments:
 |--------|--------------------:|-------------|
 | Cluster 0 | 264 | Low-value / At-risk customers |
 | Cluster 1 | 224 | High-value / Loyal customers |
+
 The final K-Means model produced two reasonably balanced clusters containing 264 and 224 customers. The cluster profiles show clear differences in purchasing behaviour, particularly in recency, transaction frequency, number of products purchased, and total spending. These differences indicate that the clustering successfully identified meaningful customer segments.
 
 **Customer Segments**
@@ -60,6 +67,7 @@ These customers have:
 - Fewer transactions.
 - Fewer products purchased.
 - Lower overall spending.
+  
 **Recommendation:**  
 Use targeted re-engagement campaigns, personalised promotions, discounts, and loyalty incentives to encourage repeat purchases.
 
@@ -69,6 +77,7 @@ These customers:
 - Purchase more products.
 - Spend significantly more.
 - Have more recent purchase activity.
+  
 **Recommendation:**  
 Focus on retention through VIP rewards, exclusive offers, personalised recommendations, and loyalty programmes.
 

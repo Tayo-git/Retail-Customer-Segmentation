@@ -117,6 +117,11 @@ The dataset was cleaned and transformed into customer-level features including
 
 The raw data is available in the "data"  folder.
 
+
+**PROJECT DEMO**
+Watch the 2-3 minutes project Demonstration on loom
+(https://www.loom.com/share/6024a6d4f0d94da0aad50dd318cfee0e)
+
 **Author**
 Ogunjinmi Temitayo Olubunmi
 Data Science Capstone Project - Retail Customer Segmentation Using K-Means Clustering
